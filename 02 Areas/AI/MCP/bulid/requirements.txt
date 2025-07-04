@@ -1,0 +1,10 @@
+fast-mcp
+llama-index
+llama-index-workflows
+python-dotenv
+uvicorn
+fastapi
+duckduckgo-search
+openai
+lxml
+beautifulsoup4 

@@ -1,0 +1,13 @@
+DeepSeek is a family of advanced, open-source Large Language Models (LLMs) developed by DeepSeek AI. The family includes both base models and instruction-tuned chat models of various sizes, ranging from a few billion to hundreds of billions of parameters.
+
+Key aspects of the DeepSeek models:
+
+1.  **Training Data**: The models are trained on a massive and diverse dataset of 2 trillion tokens, consisting of high-quality text from web pages, books, code, and other sources. This extensive training contributes to their strong general knowledge and reasoning capabilities.
+
+2.  **Architecture**: The DeepSeek models utilize a standard Transformer-based architecture, similar to other leading LLMs like GPT and LLaMA. They incorporate modern techniques and optimizations to enhance performance and training efficiency.
+
+3.  **Performance**: The DeepSeek models, particularly the larger ones, have demonstrated performance comparable to or even exceeding other leading open-source models on various benchmarks. They show strong capabilities in areas like natural language understanding, reasoning, and code generation. The coding-specific models, like DeepSeek-Coder, are particularly powerful for programming tasks.
+
+4.  **Open Source**: A significant feature of the DeepSeek project is its commitment to open-source development. By making the models and their weights publicly available, DeepSeek AI aims to foster research, innovation, and broader access to powerful AI technology within the community.
+
+This local document allows the RAG (Retrieval-Augmented Generation) tool to answer specific questions about the DeepSeek project without needing to access the internet. 
