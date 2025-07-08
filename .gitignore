@@ -1,0 +1,97 @@
+# Obsidian
+.obsidian/
+.trash/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.cursor/
+.idea/
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Python
+.python/
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Node
+node_modules/
+jspm_packages/
+typings/
+.npm/
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.cache
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fuse-box/
+.dynamodb/
+.tern-port
+
+# Large files
+*.pdf
+*.ppt
+*.pptx
+*.docx
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.zip
+00-used/26 vocie/TMSpeech.win-x64-with-model/models/encoder.onnx
+
+# Ignored directories
+.accelerate/
+n8n/
+03 Resources/AI/
+"01 Projects/P-经济学毕业论文/"
+
+# Metagpt generated files
+"01 Projects/P-经济学毕业论文/06 AI辅助分析/Econometrics-Agent/db/"
+"01 Projects/P-经济学毕业论文/06 AI辅助分析/Econometrics-Agent/workspace/"
+"01 Projects/P-经济学毕业论文/06 AI辅助分析/Econometrics-Agent/logs/"
+
+# Specific files
+"01 Projects/D-LLM/1_Python + LLM + MCP_38.md"

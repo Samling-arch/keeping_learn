@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"a1b2c3d4e5f6g7h8","type":"text","text":"# 碎片信息整合\n## 主题：数字极简主义与注意力经济","x":-300,"y":-300,"width":400,"height":100},
+		{"id":"b2c3d4e5f6g7h8i9","type":"text","text":"## 笔记1：注意力是稀缺资源\n\n- 人类注意力有限且易分散\n- 数字环境设计为争夺注意力\n- 注意力分散导致认知能力下降","x":-600,"y":-150,"width":400,"height":200},
+		{"id":"c3d4e5f6g7h8i9j0","type":"text","text":"## 笔记2：数字极简主义的实践方法\n\n- 有意识地选择数字工具\n- 实行信息节食\n- 批量处理数字通信\n- 创建科技使用规则","x":-600,"y":100,"width":400,"height":200},
+		{"id":"d4e5f6g7h8i9j0k1","type":"text","text":"## 笔记3：社交媒体与多巴胺成瘾机制\n\n- 无限滚动设计触发多巴胺释放\n- 随机奖励机制增强成瘾性\n- 社交验证形成反馈循环","x":0,"y":-150,"width":400,"height":200},
+		{"id":"e5f6g7h8i9j0k1l2","type":"text","text":"## 笔记4：深度工作的认知基础\n\n- 深度工作需要持续注意力\n- 上下文切换有认知成本\n- 创造性工作需要心流状态\n- 减少干扰是关键前提","x":0,"y":100,"width":400,"height":200},
+		{"id":"f6g7h8i9j0k1l2m3","type":"text","text":"## 关键联系1：注意力与成瘾\n\n- 社交媒体利用多巴胺反馈循环捕获注意力\n- 注意力被分散导致认知能力下降\n- 形成"数字依赖"的恶性循环","x":-300,"y":-50,"width":400,"height":150},
+		{"id":"g7h8i9j0k1l2m3n4","type":"text","text":"## 关键联系2：极简主义与深度工作\n\n- 数字极简主义创造注意力空间\n- 减少信息输入是深度工作的前提\n- 两者都强调有意识的选择而非被动反应","x":-300,"y":150,"width":400,"height":150},
+		{"id":"i9j0k1l2m3n4o5p6","type":"text","text":"## 新洞见：注意力资本主义\n\n社交媒体和数字平台的商业模式本质上是对人类注意力的争夺和货币化。数字极简主义可以视为对这种"注意力资本主义"的抵抗形式，而深度工作则是保护和投资自己注意力资本的方法。","x":-300,"y":350,"width":700,"height":150}
+	],
+	"edges":[
+		{"id":"k1l2m3n4o5p6q7r8","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"bottom","toNode":"f6g7h8i9j0k1l2m3","toSide":"top"},
+		{"id":"l2m3n4o5p6q7r8s9","fromNode":"b2c3d4e5f6g7h8i9","fromSide":"right","toNode":"f6g7h8i9j0k1l2m3","toSide":"left"},
+		{"id":"m3n4o5p6q7r8s9t0","fromNode":"d4e5f6g7h8i9j0k1","fromSide":"left","toNode":"f6g7h8i9j0k1l2m3","toSide":"right"},
+		{"id":"n4o5p6q7r8s9t0u1","fromNode":"f6g7h8i9j0k1l2m3","fromSide":"bottom","toNode":"g7h8i9j0k1l2m3n4","toSide":"top"},
+		{"id":"o5p6q7r8s9t0u1v2","fromNode":"c3d4e5f6g7h8i9j0","fromSide":"right","toNode":"g7h8i9j0k1l2m3n4","toSide":"left"},
+		{"id":"p6q7r8s9t0u1v2w3","fromNode":"e5f6g7h8i9j0k1l2","fromSide":"left","toNode":"g7h8i9j0k1l2m3n4","toSide":"right"},
+		{"id":"t0u1v2w3x4y5z6a7","fromNode":"g7h8i9j0k1l2m3n4","fromSide":"bottom","toNode":"i9j0k1l2m3n4o5p6","toSide":"top"}
+	]
+} 

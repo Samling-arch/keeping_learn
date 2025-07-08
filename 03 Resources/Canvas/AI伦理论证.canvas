@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"a1b2c3d4e5f6g7h8","type":"text","text":"# AI伦理与监管\n## 核心命题\n大型语言模型需要更严格的伦理监管框架","x":-300,"y":-300,"width":300,"height":120},
+		{"id":"b2c3d4e5f6g7h8i9","type":"text","text":"## 论点1：潜在危害\n大型语言模型可能产生有害内容","x":-600,"y":-100,"width":280,"height":100},
+		{"id":"c3d4e5f6g7h8i9j0","type":"text","text":"## 论点2：偏见问题\n模型可能放大社会偏见和不平等","x":-300,"y":-100,"width":300,"height":100},
+		{"id":"d4e5f6g7h8i9j0k1","type":"text","text":"## 论点3：信息质量\n可能生成误导性或虚假信息","x":0,"y":-100,"width":280,"height":100},
+		{"id":"e5f6g7h8i9j0k1l2","type":"text","text":"### 证据1.1\n- 有研究表明AI可生成有害指导\n- 安全机制可被绕过\n- 存在恶意使用风险","x":-600,"y":50,"width":280,"height":120},
+		{"id":"g7h8i9j0k1l2m3n4","type":"text","text":"### 证据2.1\n- 训练数据反映社会偏见\n- 模型倾向于放大现有偏见\n- 特定群体表征不足","x":-300,"y":50,"width":300,"height":120},
+		{"id":"i9j0k1l2m3n4o5p6","type":"text","text":"### 证据3.1\n- 模型可能自信地提供错误信息\n- 幻觉问题尚未解决\n- 信息来源不透明","x":0,"y":50,"width":280,"height":120},
+		{"id":"k1l2m3n4o5p6q7r8","type":"text","text":"## 反论1\n技术创新不应被过度限制","x":350,"y":-100,"width":250,"height":80},
+		{"id":"l2m3n4o5p6q7r8s9","type":"text","text":"## 反论2\n自我监管足以解决问题","x":350,"y":0,"width":250,"height":80},
+		{"id":"m3n4o5p6q7r8s9t0","type":"text","text":"## 反论3\n监管可能阻碍有益应用","x":350,"y":100,"width":250,"height":80},
+		{"id":"n4o5p6q7r8s9t0u1","type":"text","text":"### 驳斥1\n创新与伦理并非对立，而是互补\n有边界的创新更可持续","x":650,"y":-100,"width":300,"height":80},
+		{"id":"o5p6q7r8s9t0u1v2","type":"text","text":"### 驳斥2\n历史表明自我监管往往不足\n需要独立第三方监督","x":650,"y":0,"width":300,"height":80},
+		{"id":"p6q7r8s9t0u1v2w3","type":"text","text":"### 驳斥3\n精心设计的监管可促进而非阻碍\n明确规则增加用户信任","x":650,"y":100,"width":300,"height":80},
+		{"id":"q7r8s9t0u1v2w3x4","type":"text","text":"## 结论\n\n1. 大型语言模型具有显著的社会影响力\n\n2. 现有自我监管机制不足以应对所有风险\n\n3. 需要多方参与的监管框架\n\n4. 监管应平衡创新与安全\n\n5. 透明度和问责制是关键","x":-280,"y":300,"width":600,"height":200}
+	],
+	"edges":[
+		{"id":"r8s9t0u1v2w3x4y5","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"bottom","toNode":"b2c3d4e5f6g7h8i9","toSide":"top"},
+		{"id":"s9t0u1v2w3x4y5z6","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"bottom","toNode":"c3d4e5f6g7h8i9j0","toSide":"top"},
+		{"id":"t0u1v2w3x4y5z6a7","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"bottom","toNode":"d4e5f6g7h8i9j0k1","toSide":"top"},
+		{"id":"u1v2w3x4y5z6a7b8","fromNode":"b2c3d4e5f6g7h8i9","fromSide":"bottom","toNode":"e5f6g7h8i9j0k1l2","toSide":"top"},
+		{"id":"w3x4y5z6a7b8c9d0","fromNode":"c3d4e5f6g7h8i9j0","fromSide":"bottom","toNode":"g7h8i9j0k1l2m3n4","toSide":"top"},
+		{"id":"y5z6a7b8c9d0e1f2","fromNode":"d4e5f6g7h8i9j0k1","fromSide":"bottom","toNode":"i9j0k1l2m3n4o5p6","toSide":"top"},
+		{"id":"a7b8c9d0e1f2g3h4","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"right","toNode":"k1l2m3n4o5p6q7r8","toSide":"left"},
+		{"id":"b8c9d0e1f2g3h4i5","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"right","toNode":"l2m3n4o5p6q7r8s9","toSide":"left"},
+		{"id":"c9d0e1f2g3h4i5j6","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"right","toNode":"m3n4o5p6q7r8s9t0","toSide":"left"},
+		{"id":"d0e1f2g3h4i5j6k7","fromNode":"k1l2m3n4o5p6q7r8","fromSide":"right","toNode":"n4o5p6q7r8s9t0u1","toSide":"left"},
+		{"id":"e1f2g3h4i5j6k7l8","fromNode":"l2m3n4o5p6q7r8s9","fromSide":"right","toNode":"o5p6q7r8s9t0u1v2","toSide":"left"},
+		{"id":"f2g3h4i5j6k7l8m9","fromNode":"m3n4o5p6q7r8s9t0","fromSide":"right","toNode":"p6q7r8s9t0u1v2w3","toSide":"left"},
+		{"id":"g3h4i5j6k7l8m9n0","fromNode":"e5f6g7h8i9j0k1l2","fromSide":"bottom","toNode":"q7r8s9t0u1v2w3x4","toSide":"left"},
+		{"id":"i5j6k7l8m9n0o1p2","fromNode":"g7h8i9j0k1l2m3n4","fromSide":"bottom","toNode":"q7r8s9t0u1v2w3x4","toSide":"top"},
+		{"id":"k7l8m9n0o1p2q3r4","fromNode":"i9j0k1l2m3n4o5p6","fromSide":"bottom","toNode":"q7r8s9t0u1v2w3x4","toSide":"right"},
+		{"id":"m9n0o1p2q3r4s5t6","fromNode":"n4o5p6q7r8s9t0u1","fromSide":"bottom","toNode":"q7r8s9t0u1v2w3x4","toSide":"right"},
+		{"id":"n0o1p2q3r4s5t6u7","fromNode":"o5p6q7r8s9t0u1v2","fromSide":"bottom","toNode":"q7r8s9t0u1v2w3x4","toSide":"right"},
+		{"id":"o1p2q3r4s5t6u7v8","fromNode":"p6q7r8s9t0u1v2w3","fromSide":"bottom","toNode":"q7r8s9t0u1v2w3x4","toSide":"right"}
+	]
+}

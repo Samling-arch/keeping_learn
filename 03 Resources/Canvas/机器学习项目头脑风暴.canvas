@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"01d7f9fdb0a57b4a","type":"text","text":"# 机器学习项目\n## 核心目标\n- 掌握机器学习基础知识\n- 实现一个实际应用\n- 建立个人项目集合","x":-340,"y":-300,"width":300,"height":160},
+		{"id":"e0f7e2d1f8f8d6a6","type":"text","text":"## 学习路径\n- 基础理论\n- 实践项目\n- 高级主题","x":40,"y":-300,"width":250,"height":160},
+		{"id":"f5a7b7c6b5c8d9e0","type":"text","text":"## 基础理论\n- 线性回归\n- 逻辑回归\n- 决策树\n- 神经网络\n- 支持向量机","x":40,"y":-60,"width":250,"height":200},
+		{"id":"c3d4e5f6g7h8i9j0","type":"text","text":"## 关键问题\n- 如何平衡理论与实践？\n- 如何选择合适的项目？\n- 如何评估学习进度？\n- 如何应用到实际问题？","x":-340,"y":260,"width":300,"height":160},
+		{"id":"d4e5f6g7h8i9j0k1","type":"text","text":"## 潜在挑战\n- 数学基础\n- 编程技能\n- 计算资源\n- 时间管理","x":-340,"y":480,"width":300,"height":140},
+		{"id":"e5f6g7h8i9j0k1l2","type":"text","text":"## 输出成果\n- 学习笔记库\n- 代码仓库\n- 项目演示\n- 博客文章","x":360,"y":-300,"width":250,"height":160},
+		{"id":"f6g7h8i9j0k1l2m3","type":"text","text":"## 时间规划\n- 第1-4周：基础理论\n- 第5-8周：实践项目\n- 第9-12周：高级主题\n- 第13-16周：综合项目","x":360,"y":-60,"width":250,"height":200},
+		{"id":"g7h8i9j0k1l2m3n4","type":"text","text":"## 评估标准\n- 理论理解\n- 代码实现\n- 问题解决\n- 创新应用","x":360,"y":200,"width":250,"height":160},
+		{"id":"b2c3d4e5f6g7h8i9","type":"text","text":"## 资源\n- 课程\n  - Coursera ML\n  - Fast.ai\n- 书籍\n  - 机器学习实战\n  - 深度学习花书\n- 工具\n  - Python\n  - TensorFlow/PyTorch\n  - Jupyter Notebook","x":-340,"y":-90,"width":300,"height":260},
+		{"id":"a1b2c3d4e5f6g7h8","type":"text","text":"## 实践项目\n- 房价预测\n- 图像分类\n- 情感分析\n- 推荐系统","x":40,"y":260,"width":250,"height":160},
+		{"id":"h8g7f6e5d4c3b2a1","type":"text","text":"## 高级主题\n- 深度学习\n- 强化学习\n- 自然语言处理\n- 计算机视觉","x":40,"y":470,"width":250,"height":160},
+		{"id":"h8i9j0k1l2m3n4o5","type":"text","text":"## 延伸方向\n- 数据科学\n- AI伦理\n- 机器学习工程\n- 研究前沿","x":360,"y":460,"width":250,"height":160}
+	],
+	"edges":[
+		{"id":"i9j0k1l2m3n4o5p6","fromNode":"01d7f9fdb0a57b4a","fromSide":"right","toNode":"e0f7e2d1f8f8d6a6","toSide":"left"},
+		{"id":"j0k1l2m3n4o5p6q7","fromNode":"e0f7e2d1f8f8d6a6","fromSide":"bottom","toNode":"f5a7b7c6b5c8d9e0","toSide":"top"},
+		{"id":"k1l2m3n4o5p6q7r8","fromNode":"f5a7b7c6b5c8d9e0","fromSide":"bottom","toNode":"a1b2c3d4e5f6g7h8","toSide":"top"},
+		{"id":"l2m3n4o5p6q7r8s9","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"bottom","toNode":"h8g7f6e5d4c3b2a1","toSide":"top"},
+		{"id":"m3n4o5p6q7r8s9t0","fromNode":"01d7f9fdb0a57b4a","fromSide":"bottom","toNode":"b2c3d4e5f6g7h8i9","toSide":"top"},
+		{"id":"n4o5p6q7r8s9t0u1","fromNode":"b2c3d4e5f6g7h8i9","fromSide":"bottom","toNode":"c3d4e5f6g7h8i9j0","toSide":"top"},
+		{"id":"o5p6q7r8s9t0u1v2","fromNode":"c3d4e5f6g7h8i9j0","fromSide":"bottom","toNode":"d4e5f6g7h8i9j0k1","toSide":"top"},
+		{"id":"p6q7r8s9t0u1v2w3","fromNode":"e0f7e2d1f8f8d6a6","fromSide":"right","toNode":"e5f6g7h8i9j0k1l2","toSide":"left"},
+		{"id":"q7r8s9t0u1v2w3x4","fromNode":"e5f6g7h8i9j0k1l2","fromSide":"bottom","toNode":"f6g7h8i9j0k1l2m3","toSide":"top"},
+		{"id":"r8s9t0u1v2w3x4y5","fromNode":"f6g7h8i9j0k1l2m3","fromSide":"bottom","toNode":"g7h8i9j0k1l2m3n4","toSide":"top"},
+		{"id":"s9t0u1v2w3x4y5z6","fromNode":"g7h8i9j0k1l2m3n4","fromSide":"bottom","toNode":"h8i9j0k1l2m3n4o5","toSide":"top"},
+		{"id":"t0u1v2w3x4y5z6a7","fromNode":"f5a7b7c6b5c8d9e0","fromSide":"left","toNode":"b2c3d4e5f6g7h8i9","toSide":"right"},
+		{"id":"u1v2w3x4y5z6a7b8","fromNode":"a1b2c3d4e5f6g7h8","fromSide":"left","toNode":"c3d4e5f6g7h8i9j0","toSide":"right"},
+		{"id":"v2w3x4y5z6a7b8c9","fromNode":"h8g7f6e5d4c3b2a1","fromSide":"left","toNode":"d4e5f6g7h8i9j0k1","toSide":"right"}
+	]
+}
