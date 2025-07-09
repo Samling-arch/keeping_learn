@@ -31,6 +31,7 @@ pids
 *.tmp
 *.bak
 *.swp
+*~
 
 # Databases
 *.sqlite
@@ -47,6 +48,10 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+*.egg
+.coverage
+.pytest_cache/
+.tox/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -69,17 +74,108 @@ typings/
 .fuse-box/
 .dynamodb/
 .tern-port
+package-lock.json
 
-# Large files
+# Documents & Media (usually large files)
 *.pdf
+*.PDF
+*.doc
+*.docx
+*.DOC
+*.DOCX
 *.ppt
 *.pptx
-*.docx
+*.PPT
+*.PPTX
 *.xls
 *.xlsx
+*.XLS
+*.XLSX
 *.xlsm
 *.xlsb
+
+# Archive files
 *.zip
+*.ZIP
+*.rar
+*.RAR
+*.7z
+*.tar
+*.tar.gz
+*.gz
+*.bz2
+
+# Audio/Video files (usually large)
+*.mp4
+*.MP4
+*.avi
+*.AVI
+*.mov
+*.MOV
+*.wmv
+*.WMV
+*.flv
+*.FLV
+*.mkv
+*.MKV
+*.mp3
+*.MP3
+*.wav
+*.WAV
+*.flac
+*.FLAC
+*.m4a
+*.M4A
+
+# Image files (large ones)
+*.psd
+*.PSD
+*.ai
+*.AI
+*.eps
+*.EPS
+*.tiff
+*.TIFF
+*.bmp
+*.BMP
+# Keep common web images but exclude large ones
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.svg
+
+# Model files and datasets (usually very large)
+*.model
+*.MODEL
+*.bin
+*.BIN
+*.onnx
+*.ONNX
+*.h5
+*.H5
+*.pkl
+*.PKL
+*.pickle
+*.PICKLE
+*.pt
+*.PT
+*.pth
+*.PTH
+*.safetensors
+*.SAFETENSORS
+
+# Large data files
+*.csv
+*.CSV
+*.json
+*.JSON
+*.xml
+*.XML
+*.parquet
+*.PARQUET
+
+# Specific large files/directories
 00-used/26 vocie/TMSpeech.win-x64-with-model/models/encoder.onnx
 
 # Ignored directories
@@ -93,5 +189,27 @@ n8n/
 "01 Projects/P-经济学毕业论文/06 AI辅助分析/Econometrics-Agent/workspace/"
 "01 Projects/P-经济学毕业论文/06 AI辅助分析/Econometrics-Agent/logs/"
 
+# Cache directories
+cache/
+.cache/
+tmp/
+temp/
+
+# Backup files
+*.backup
+*.BACKUP
+*.old
+*.OLD
+
+# Large memory dumps
+*.dump
+*.DUMP
+*.dmp
+*.DMP
+
 # Specific files
 "01 Projects/D-LLM/1_Python + LLM + MCP_38.md"
+
+# Any file larger than 100MB (GitHub limit is 100MB)
+# Note: You may need to use git-lfs for files between 50MB-100MB
+*.large
