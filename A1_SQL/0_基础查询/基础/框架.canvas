@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"sql-foundation","type":"text","text":"# SQL基础查询框架\n\n**核心目标**：掌握数据库的基本操作，从创建到查询的完整流程","x":400,"y":100,"width":300,"height":120,"color":"#1e3a8a"},
+		{"id":"db-creation","type":"text","text":"## 数据库创建与使用\n\n**核心知识点：**\n- `CREATE DATABASE` - 创建数据库\n- `USE` - 选择数据库\n- `CREATE TABLE` - 创建表\n- `SHOW DATABASES/TABLES` - 查看数据库/表\n\n**比喻**：数据库=图书馆，表=书架","x":50,"y":300,"width":280,"height":160,"color":"#166534"},
+		{"id":"basic-query","type":"text","text":"## 基本查询操作\n\n**SELECT基础：**\n- `SELECT * FROM table` - 查询所有字段\n- `SELECT column1, column2` - 查询指定字段\n- 避免使用`*`的原因：性能和维护性\n\n**WHERE条件筛选：**\n- 比较运算符：`>`, `<`, `=`\n- 范围查询：`BETWEEN...AND`\n- 集合查询：`IN(...)`","x":380,"y":300,"width":280,"height":180,"color":"#166534"},
+		{"id":"date-query","type":"text","text":"## 日期查询专题\n\n**日期比较：**\n- 日期可以直接用`>`, `<`比较\n- MySQL自动转换字符串到日期\n\n**日期函数：**\n- `YEAR(date)` - 提取年份\n- `MONTH(date)` - 提取月份\n- `DAY(date)` - 提取日期\n\n**复杂查询**：星座范围查询","x":710,"y":300,"width":280,"height":160,"color":"#166534"},
+		{"id":"order-limit","type":"text","text":"## 排序与限制\n\n**ORDER BY排序：**\n- `ASC` - 升序（默认）\n- `DESC` - 降序\n- 多字段排序：优先级顺序\n\n**LIMIT限制：**\n- `LIMIT n` - 取前n条\n- `LIMIT m,n` - 跳过m条，取n条\n- 应用场景：分页、Top-N查询","x":50,"y":520,"width":280,"height":180,"color":"#166534"},
+		{"id":"group-having","type":"text","text":"## 分组与聚合\n\n**GROUP BY分组：**\n- 按字段分组统计\n- 常用聚合函数：`COUNT()`, `AVG()`, `MAX()`, `MIN()`\n- `GROUP_CONCAT()` - 合并组内数据\n\n**WHERE vs HAVING：**\n- WHERE：分组前筛选记录\n- HAVING：分组后筛选组\n- HAVING可以使用聚合函数","x":380,"y":520,"width":280,"height":200,"color":"#166534"},
+		{"id":"distinct-advanced","type":"text","text":"## 去重与高级查询\n\n**DISTINCT去重：**\n- 移除完全相同的记录\n- 作用于所有选择的列\n- 应用场景：数据分析、类别统计\n\n**执行顺序**：\nFROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT","x":710,"y":520,"width":280,"height":160,"color":"#166534"},
+		{"id":"update-delete","type":"text","text":"## 数据修改操作\n\n**UPDATE更新：**\n- `UPDATE table SET column=value WHERE condition`\n- 可以使用表达式：`salary = salary * 1.15`\n- 支持ORDER BY和LIMIT\n\n**DELETE删除：**\n- `DELETE FROM table WHERE condition`\n- 整行删除\n\n**⚠️ 重要**：UPDATE和DELETE必须使用WHERE条件！","x":1040,"y":300,"width":280,"height":200,"color":"#166534"},
+		{"id":"syntax-summary","type":"text","text":"## 完整SQL语法顺序\n\n```sql\nSELECT column_list\nFROM table_name\nWHERE condition\nGROUP BY column_list\nHAVING group_condition\nORDER BY column_list\nLIMIT offset, count;\n```","x":50,"y":950,"width":600,"height":120,"color":"#6b7280"},
+		{"id":"common-functions","type":"text","text":"## 常用函数速查\n\n**聚合函数**：COUNT(), AVG(), MAX(), MIN(), SUM()\n**日期函数**：YEAR(), MONTH(), DAY()\n**字符串函数**：GROUP_CONCAT()\n**比较运算**：>, <, =, BETWEEN, IN","x":700,"y":950,"width":320,"height":120,"color":"#6b7280"},
+		{"id":"practical-applications","type":"text","text":"## 实际应用场景\n\n- **业务报表**：分组统计、排序展示\n- **数据分页**：网页列表显示\n- **条件筛选**：用户搜索功能\n- **批量更新**：薪资调整、状态变更\n- **数据清理**：去重、删除无效记录","x":650,"y":780,"width":400,"height":140,"color":"#ea580c"},
+		{"id":"best-practices","type":"text","text":"## 最佳实践与注意事项\n\n- 避免使用`SELECT *`，明确指定字段\n- UPDATE和DELETE操作前先用SELECT验证\n- 理解SQL执行顺序，避免语法错误\n- 合理使用索引字段进行WHERE筛选\n- 分页查询使用LIMIT优化性能","x":150,"y":780,"width":400,"height":140,"color":"#ea580c"}
+	],
+	"edges":[
+		{"id":"foundation-to-creation","fromNode":"sql-foundation","fromSide":"bottom","toNode":"db-creation","toSide":"top","color":"#d1d5db","label":"第一步"},
+		{"id":"foundation-to-query","fromNode":"sql-foundation","fromSide":"bottom","toNode":"basic-query","toSide":"top","color":"#d1d5db","label":"核心技能"},
+		{"id":"foundation-to-date","fromNode":"sql-foundation","fromSide":"bottom","toNode":"date-query","toSide":"top","color":"#d1d5db","label":"专项技能"},
+		{"id":"foundation-to-update","fromNode":"sql-foundation","fromSide":"right","toNode":"update-delete","toSide":"left","color":"#d1d5db","label":"数据操作"},
+		{"id":"query-to-order","fromNode":"basic-query","fromSide":"bottom","toNode":"order-limit","toSide":"top","color":"#d1d5db","label":"结果处理"},
+		{"id":"query-to-group","fromNode":"basic-query","fromSide":"bottom","toNode":"group-having","toSide":"top","color":"#d1d5db","label":"统计分析"},
+		{"id":"query-to-distinct","fromNode":"basic-query","fromSide":"right","toNode":"distinct-advanced","toSide":"top","color":"#d1d5db","label":"高级查询"},
+		{"id":"order-to-practices","fromNode":"order-limit","fromSide":"bottom","toNode":"best-practices","toSide":"top","color":"#d1d5db"},
+		{"id":"group-to-practices","fromNode":"group-having","fromSide":"bottom","toNode":"best-practices","toSide":"top","color":"#d1d5db"},
+		{"id":"distinct-to-applications","fromNode":"distinct-advanced","fromSide":"bottom","toNode":"practical-applications","toSide":"top","color":"#d1d5db"},
+		{"id":"update-to-applications","fromNode":"update-delete","fromSide":"bottom","toNode":"practical-applications","toSide":"top","color":"#d1d5db"},
+		{"id":"practices-to-syntax","fromNode":"best-practices","fromSide":"bottom","toNode":"syntax-summary","toSide":"top","color":"#d1d5db"},
+		{"id":"applications-to-functions","fromNode":"practical-applications","fromSide":"bottom","toNode":"common-functions","toSide":"top","color":"#d1d5db"}
+	]
+}

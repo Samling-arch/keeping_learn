@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"intro","type":"text","text":"# 发展经济学教材框架\n\n本Canvas整理了发展经济学的核心理论体系，包括发展理论、增长模型、人口资源、制度变迁、国际经济等主要内容。","x":0,"y":-800,"width":400,"height":150,"color":"#1e3a8a"},
+		{"id":"chapter7-8","type":"text","text":"## 第七八章 农业与工业化\n\n### 农业发展\n- 农业在经济发展中的作用\n- 农业剩余转移\n- 农业现代化\n\n### 工业化进程\n- 工业化理论\n- 产业结构升级\n- 工业化道路选择","x":600,"y":-600,"width":300,"height":200,"color":"#1e3a8a"},
+		{"id":"chapter12","type":"text","text":"## 第十二章 资本形成与金融发展\n\n### 资本形成理论\n- 资本积累的作用\n- 储蓄与投资\n- 两缺口模型\n\n### 金融发展理论\n- 金融深化理论\n- 金融自由化\n- 中国金融制度改革","x":200,"y":-300,"width":300,"height":200,"color":"#166534"},
+		{"id":"chapter17","type":"text","text":"## 第十七章 制度与发展\n\n### 马克思制度变迁理论\n- 制度的本质与起源\n- 生产力与制度变迁\n- 制度的反作用\n\n### 新制度经济学\n- 制度的定义与作用\n- 产权理论\n- 交易成本理论\n- 契约与企业制度","x":600,"y":0,"width":300,"height":200,"color":"#ea580c"},
+		{"id":"china-practice","type":"text","text":"## 中国实践\n\n### 改革开放历程\n- 农村改革\n- 国企改革\n- 金融改革\n- 对外开放\n\n### 发展成就\n- 经济高速增长\n- 脱贫攻坚\n- 创新驱动\n- 高质量发展","x":0,"y":300,"width":350,"height":180,"color":"#6b7280"},
+		{"id":"chapter9-10","type":"text","text":"## 第九十章 城市化与区域发展\n\n### 城市化理论\n- 城市化的动力机制\n- 城乡二元结构\n- 城乡融合发展\n\n### 区域经济发展\n- 循环累积因果理论\n- 增长极理论\n- 梯度转移理论\n- 中国区域发展战略","x":-1000,"y":-340,"width":300,"height":200,"color":"#166534"},
+		{"id":"chapter1-2","type":"text","text":"## 第一二章 发展经济学概述\n\n### 核心概念\n- 发展经济学的产生与发展\n- 发展与增长的区别\n- 发展中国家的特征\n- 发展经济学的研究方法\n\n### 理论演进\n- 早期发展理论\n- 新古典增长理论\n- 内生增长理论","x":-950,"y":-600,"width":300,"height":200,"color":"#1e3a8a"},
+		{"id":"chapter11","type":"text","text":"## 第十一章 人口与人力资源\n\n### 人口转型理论\n- 人口转型四阶段\n- 人口红利与老龄化\n- 马尔萨斯人口理论\n\n### 人力资本理论\n- 人力资本投资\n- 教育的经济效应\n- 劳动力市场二元结构","x":-350,"y":-300,"width":300,"height":200,"color":"#166534"},
+		{"id":"chapter13","type":"text","text":"## 第十三章 技术进步与创新\n\n### 技术进步理论\n- 技术进步的分类\n- 技术进步的测量\n- 全要素生产率\n\n### 创新驱动发展\n- 技术创新与扩散\n- 国家创新体系\n- 中国创新型国家建设","x":900,"y":-300,"width":300,"height":200,"color":"#166534"},
+		{"id":"chapter14","type":"text","text":"## 第十四章 资源环境与可持续发展\n\n### 资源经济学\n- 自然资源分类\n- 资源诅咒论\n- 荷兰病现象\n\n### 环境经济学\n- 环境库兹涅茨曲线\n- 环境退化的经济影响\n- 可持续发展理论","x":-1000,"y":0,"width":300,"height":200,"color":"#ea580c"},
+		{"id":"chapter15","type":"text","text":"## 第十五章 国际贸易\n\n### 贸易发展战略\n- 进口替代战略\n- 出口导向战略\n- 战略协调与选择\n\n### 中国外贸发展\n- 外贸体制改革\n- 外贸发展方式转变\n- 经济全球化影响","x":-400,"y":0,"width":300,"height":200,"color":"#ea580c"},
+		{"id":"chapter16","type":"text","text":"## 第十六章 国际投资\n\n### 外资利用理论\n- 两缺口模型\n- 双盈余模型\n- 对外投资理论\n\n### 中国外资实践\n- 外资引进政策\n- 外资贡献分析\n- 对外投资发展\n- \"一带一路\"倡议","x":50,"y":0,"width":300,"height":200,"color":"#ea580c"},
+		{"id":"theoretical-foundation","type":"text","text":"## 理论基础\n\n### 古典经济学\n- 亚当·斯密的分工理论\n- 李嘉图的比较优势\n- 马尔萨斯的人口理论\n\n### 现代发展理论\n- 结构主义学派\n- 新古典主义学派\n- 新制度主义学派","x":-1050,"y":300,"width":350,"height":180,"color":"#6b7280"},
+		{"id":"policy-implications","type":"text","text":"## 政策含义\n\n### 发展策略\n- 平衡增长vs非平衡增长\n- 大推进理论\n- 临界最小努力理论\n\n### 政策工具\n- 财政政策\n- 货币政策\n- 产业政策\n- 贸易政策","x":-550,"y":300,"width":350,"height":180,"color":"#6b7280"},
+		{"id":"contemporary-issues","type":"text","text":"## 当代议题\n\n### 全球化挑战\n- 贸易保护主义\n- 金融危机\n- 技术竞争\n\n### 可持续发展\n- 环境保护\n- 气候变化\n- 绿色发展\n- 共同富裕","x":600,"y":300,"width":350,"height":180,"color":"#6b7280"},
+		{"id":"chapter3-4","type":"text","text":"## 第三四章 经济增长理论\n\n### 哈罗德-多马模型\n- 储蓄率决定增长率\n- 刃锋均衡问题\n- 政策含义\n\n### 新古典增长模型\n- 索洛模型\n- 稳态增长\n- 技术进步的作用\n- 条件收敛","x":-500,"y":-600,"width":300,"height":200,"color":"#1e3a8a"},
+		{"id":"chapter5-6","type":"text","text":"## 第五六章 贫困与收入分配\n\n### 贫困理论\n- 贫困的定义与测量\n- 绝对贫困与相对贫困\n- 贫困恶性循环理论\n\n### 收入分配\n- 库兹涅茨曲线\n- 基尼系数\n- 收入不平等的原因\n- 再分配政策","x":50,"y":-600,"width":300,"height":200,"color":"#1e3a8a"}
+	],
+	"edges":[
+		{"id":"intro-to-chapters","fromNode":"intro","fromSide":"left","toNode":"chapter1-2","toSide":"right","color":"#d1d5db","label":"理论基础"},
+		{"id":"growth-theory-connection","fromNode":"chapter1-2","fromSide":"right","toNode":"chapter3-4","toSide":"left","color":"#d1d5db","label":"增长理论"},
+		{"id":"growth-to-distribution","fromNode":"chapter3-4","fromSide":"right","toNode":"chapter5-6","toSide":"left","color":"#d1d5db","label":"增长与分配"},
+		{"id":"distribution-to-structure","fromNode":"chapter5-6","fromSide":"right","toNode":"chapter7-8","toSide":"left","color":"#d1d5db","label":"结构转型"},
+		{"id":"structure-to-space","fromNode":"chapter7-8","fromSide":"left","toNode":"chapter9-10","toSide":"right","color":"#d1d5db","label":"空间发展"},
+		{"id":"space-to-population","fromNode":"chapter9-10","fromSide":"right","toNode":"chapter11","toSide":"left","color":"#d1d5db","label":"人口因素"},
+		{"id":"population-to-capital","fromNode":"chapter11","fromSide":"right","toNode":"chapter12","toSide":"left","color":"#d1d5db","label":"要素投入"},
+		{"id":"capital-to-technology","fromNode":"chapter12","fromSide":"right","toNode":"chapter13","toSide":"left","color":"#d1d5db","label":"技术进步"},
+		{"id":"technology-to-resources","fromNode":"chapter13","fromSide":"left","toNode":"chapter14","toSide":"right","color":"#d1d5db","label":"可持续发展"},
+		{"id":"resources-to-trade","fromNode":"chapter14","fromSide":"right","toNode":"chapter15","toSide":"left","color":"#d1d5db","label":"国际贸易"},
+		{"id":"trade-to-investment","fromNode":"chapter15","fromSide":"right","toNode":"chapter16","toSide":"left","color":"#d1d5db","label":"国际投资"},
+		{"id":"investment-to-institution","fromNode":"chapter16","fromSide":"right","toNode":"chapter17","toSide":"left","color":"#d1d5db","label":"制度保障"},
+		{"id":"theory-to-policy","fromNode":"theoretical-foundation","fromSide":"right","toNode":"policy-implications","toSide":"left","color":"#d1d5db","label":"理论指导"},
+		{"id":"policy-to-practice","fromNode":"policy-implications","fromSide":"right","toNode":"china-practice","toSide":"left","color":"#d1d5db","label":"实践应用"},
+		{"id":"practice-to-issues","fromNode":"china-practice","fromSide":"right","toNode":"contemporary-issues","toSide":"left","color":"#d1d5db","label":"现实挑战"},
+		{"id":"foundation-to-growth","fromNode":"theoretical-foundation","fromSide":"top","toNode":"chapter3-4","toSide":"bottom","color":"#d1d5db","label":"理论支撑"},
+		{"id":"institution-to-practice","fromNode":"chapter17","fromSide":"left","toNode":"china-practice","toSide":"right","color":"#d1d5db","label":"制度创新"},
+		{"id":"capital-to-trade","fromNode":"chapter12","fromSide":"bottom","toNode":"chapter15","toSide":"top","color":"#d1d5db","label":"资本流动"},
+		{"id":"urban-to-trade","fromNode":"chapter9-10","fromSide":"bottom","toNode":"chapter15","toSide":"top","color":"#d1d5db","label":"区域开放"}
+	]
+}
